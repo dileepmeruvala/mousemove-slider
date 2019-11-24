@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container .container-inner .section {
+  height: 100vh;
+  width: 100%;
+  background: #000 url('../assets/images/image_01.jpg') no-repeat center;
+  background-size: cover;
+  transition: 0.5s all;
+}
+.container .container-inner .section .section-inner {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.container .container-inner .section .section-inner .overflow {
+  height: 100%;
+  width: 150%;
+}
+.container .container-inner .section .section-inner .overflow .dot {
+  width: 5px;
+  height: 5px;
+  background: #880000;
+  position: absolute;
+  transition: 0.1s all;
+}
+.container .container-inner .section .section-inner .overflow .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  transition: 0.1s all;
+}
+.container .container-inner .section .section-inner .overflow .menu li {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style-type: none;
+}
+.container .container-inner .section .section-inner .overflow .menu li a {
+  font-size: 120px;
+  text-decoration: none;
+  color: #880000;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+}
